@@ -37,7 +37,7 @@ First, clone the project to your local machine using the following command:
 
 bash
 Copy code
-git clone https://github.com/yourusername/employee-management-api.git
+git clone https://github.com/Thilrash/EmployeeManagementApp.git
 cd employee-management-api
 
 2. Configure the Database
