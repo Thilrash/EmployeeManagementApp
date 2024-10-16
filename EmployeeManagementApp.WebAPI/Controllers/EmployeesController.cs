@@ -50,7 +50,7 @@ namespace EmployeeManagementApp.WebAPI.Controllers
 
             if (updatedEmployee is null) { return NotFound(); };
 
-            return Ok();
+            return Ok(updatedEmployee);
         }
 
         [HttpDelete("{id}")]
@@ -60,7 +60,7 @@ namespace EmployeeManagementApp.WebAPI.Controllers
 
             if (!deleted) { return NotFound(); }
 
-            return Ok();
+            return Ok(deleted);
         }
     }
 }
